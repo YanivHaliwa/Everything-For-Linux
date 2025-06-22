@@ -1,0 +1,10 @@
+# Everything Linux - Requirements
+
+# System Requirements:
+# plocate - Fast file location database
+#   Ubuntu/Debian: sudo apt install plocate
+#   Fedora/RHEL: sudo dnf install plocate  
+#   Arch: sudo pacman -S plocate
+#   openSUSE: sudo zypper install plocate
+
+# No pip packages required - uses only Python standard library
