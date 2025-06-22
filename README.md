@@ -121,7 +121,7 @@ cd everything-linux
 ### 3. Make Executable
 
 ```bash
-chmod +x everything-linux.py
+chmod +x everything-linux
 ```
 
 ### 4. Initial Database Setup
@@ -137,10 +137,10 @@ sudo updatedb
 
 ```bash
 # Run the application
-python3 everything-linux.py
+python3 everything-linux
 
 # Or if made executable
-./everything-linux.py
+./everything-linux
 ```
 
 ### Search Examples
