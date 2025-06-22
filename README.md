@@ -77,6 +77,9 @@ Advanced ignore pattern management with regex support:
 - **Keyboard Shortcuts**:
   - `Enter`: Open selected file
   - `Escape`: Clear search and reset filters
+- **Mouse Interactions**:
+  - **Right-click**: Context menu with options to open file, open folder location, or copy path
+  - **Column Headers**: Click to sort results by Name, Path, or Size (click again to reverse order)
 
 ## 📋 Requirements
 
@@ -180,6 +183,19 @@ python3 everything-linux
 - Use the Browse button to select specific directories
 
 ### Advanced Configuration
+
+#### Result Interaction
+
+- **Right-click Context Menu**: Right-click any search result to access:
+  - **Open**: Launch the file with default application
+  - **Open Folder Location**: Open the containing directory in file manager
+  - **Copy Path**: Copy the full file path to clipboard
+
+- **Column Sorting**: Click column headers to sort results:
+  - **Name**: Alphabetical sorting of filenames
+  - **Path**: Sort by full file path
+  - **Size**: Sort by file size (largest/smallest first)
+  - Click the same header again to reverse the sort order
 
 #### Ignore Patterns
 
