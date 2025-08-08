@@ -117,14 +117,15 @@ sudo zypper install plocate
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/YanivHaliwa/everything-linux.git
-cd everything-linux
+git clone https://github.com/YanivHaliwa/Everything-For-Linux.git
+
+cd Everything-For-Linux
 ```
 
 ### 3. Make Executable
 
 ```bash
-chmod +x everything-linux
+chmod +x Everything-For-Linux
 ```
 
 ### 4. Initial Database Setup
